@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="17D47" minimumToolsVersion="Xcode 9.0" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="User" representedClassName="User" syncable="YES">
+        <attribute name="avatarUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventsUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="followersUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="followingUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gistsUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gravatarId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="htmlUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="login" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="organizationsUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="receivedEventsUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="reposUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="siteAdmin" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="starredUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subscriptionsUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="User" positionX="-63" positionY="-18" width="128" height="300"/>
+    </elements>
+</model>
